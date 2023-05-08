@@ -1,0 +1,31 @@
+Akmal Muzakki Bakir (1305210087)
+
+1. Perbedaan klasifikasi dengan regresi
+- Tujuan
+Tujuan klasifikasi adalah untuk memprediksi kategori atau label dari suatu data yang telah diklasifikasikan sebelumnya, sedangkan regresi bertujuan untuk memprediksi nilai kontinu berdasarkan data yang diberikan.
+- Kelas output
+Klasifikasi menghasilkan output dalam bentuk kelas atau kategori, sedangkan regresi menghasilkan output dalam bentuk nilai numerik.
+- Jenis data
+Klasifikasi biasanya digunakan pada data yang dikategorikan atau memiliki atribut diskrit, sementara regresi digunakan pada data numerik dan kontinu.
+- Model yang digunakan
+Model klasifikasi yang umum digunakan termasuk Naive Bayes, Decision Tree, Random Forest, SVM, dan Neural Network, sedangkan model regresi yang umum digunakan termasuk Linear Regression, Polynomial Regression, dan Support Vector Regression.
+
+2. 3 kasus menggunakan klasifikasi dan regresi
+- Klasifikasi (deteksi spam, klasifikasi gambar, identifikasi penyakit)
+- Regresi (segmentasi pelanggan, analisis DNA, identifikasi anomali)
+
+3. Cara kerja hierarchial clustering
+- 1. Menentukan jarak antar data (Dalam hierarchical clustering, pertama-tama jarak antar setiap pasang data harus ditentukan. Jarak ini dapat dihitung menggunakan berbagai metrik seperti Euclidean distance atau Manhattan distance.)
+- 2. Menentukan jarak antar klaster (Setelah jarak antar data dihitung, jarak antar kluster harus ditentukan. Jarak antar kluster dapat dihitung menggunakan berbagai metode seperti single linkage, complete linkage, atau average linkage.)
+- 3. Membangun dendogram (Dendrogram adalah diagram pohon yang menunjukkan bagaimana data diklasterkan. Dalam hierarchical clustering, dendrogram dibangun dengan menggabungkan kluster yang memiliki jarak terdekat satu sama lain, dan terus dilakukan hingga semua data berada dalam satu kluster.)
+- 4. Menentukan jumlah klaster (Setelah dendrogram dibangun, jumlah kluster yang diinginkan harus ditentukan. Pemilihan jumlah kluster dapat dilakukan dengan melihat dendrogram dan memilih titik potong yang tepat.)
+- 5. Melakukan proses klasterisasi (Setelah jumlah kluster ditentukan, data dapat diklasterkan berdasarkan kluster yang telah dibentuk.)
+- 6. Melakukan evaluasi (Setelah melakukan proses klasterisasi, kelompok akhir dievaluasi untuk memecahkan suatu masalah yang telah diputuskan)
+
+4. Cara kerja k-means clustering
+- 1. Menentukan jumlah klaster (Pertama-tama, jumlah cluster yang diinginkan harus ditentukan. Jumlah cluster ini harus disesuaikan dengan jumlah data dan sifat data yang diinginkan.)
+- 2. Menentukan centroid awal (Centroid awal untuk setiap cluster ditentukan secara random)
+- 3. Mengelompokkan data (Setiap data harus dikelompokkan berdasarkan centroid terdekat. Jarak antara setiap data dengan centroid dihitung dan data ditempatkan dalam kelompok yang memiliki centroid terdekat.)
+- 4. Menghitung ulang centroid (Setiap data harus dikelompokkan berdasarkan centroid terdekat. Jarak antara setiap data dengan centroid dihitung dan data ditempatkan dalam kelompok yang memiliki centroid terdekat.)
+- 5. Melakukan iterasi dari langkah 3 (Proses diulang dari langkah 3 hingga tidak ada data yang berubah kelompok lagi atau nilai centroid tidak berubah.)
+- 6. Melakukan evaluasi (Setelah iterasi selesai, kelompok akhir dievaluasi dan diperiksa untuk melihat apakah data telah terklaster dengan baik.)
